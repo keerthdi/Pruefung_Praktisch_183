@@ -22,8 +22,9 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
          *      http://localhost:4356/Lab1/Detail?file=Lion1.jpg&type=lions&action=delete
          *
          * Aufgabe 3
-         * 
-         * 
+         * Im ersten Beispiel kann man mit ../ aus dem Pfad gehen und die Konsole öffnen und etwas ausfüren
+         * Im zweiten Beispiel löscht man das Bild mit dem Parameter action.
+         *
          * */
 
 
