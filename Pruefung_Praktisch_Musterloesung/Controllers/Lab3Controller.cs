@@ -14,7 +14,16 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
         /**
         * 
         * ANTWORTEN BITTE HIER
-        * 
+        *
+        * Aufgabe 1
+        * SQL Injection und Stored XSS
+        *
+        * Aufgabe 2
+        * SQL Injection: Man kann die Queries abändern, so dass z.B. alle Daten angezeigt werden.
+        * Bei WHERE z.B. OR 1=1 sodass alle Daten angezeigt werden.
+        * Stored XSS: Man kann in die Queries JavaScript Codes einfügen, die dann in der Datenbank gespeichert und dann später auch ausgeführt werden.
+        * <script type="text/javascript">alert("XSS")</script> im sql query
+        *
         * */
 
         public ActionResult Index() {

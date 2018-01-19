@@ -19,6 +19,13 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
         * 
         * ANTWORTEN BITTE HIER
         * 
+        * Aufgabe 1
+        * Man könnte Brute Force verwenden, da man nicht gesperrt wird, wenn man mehrmals versucht anzumelden.
+        * 
+        *
+        * Aufgabe 2
+        * Man versucht alle Passwortkombinationen aus, bis man angemeldet ist.
+        * 
         * */
 
         public ActionResult Index() {
