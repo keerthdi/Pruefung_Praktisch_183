@@ -157,6 +157,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\lab2.mdf" />
+    <Content Include="App_Data\lab2_log.ldf">
+      <DependentUpon>lab2.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\lab3.mdf" />
+    <Content Include="App_Data\lab3_log.ldf">
+      <DependentUpon>lab3.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\lab4.mdf" />
+    <Content Include="App_Data\lab4_log.ldf">
+      <DependentUpon>lab4.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\bears\bear1.jpg" />
@@ -208,9 +220,7 @@
     <Content Include="Views\Lab3\Login.cshtml" />
     <Content Include="Views\Lab4\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
@@ -242,7 +252,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50374</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50374/</IISUrl>
+          <IISUrl>http://localhost:4356/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

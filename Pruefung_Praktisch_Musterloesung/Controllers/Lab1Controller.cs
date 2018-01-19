@@ -12,6 +12,17 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
         /**
          * 
          * ANTWORTEN BITTE HIER
+         *
+         * Aufgabe 1
+         * Man kann im Parameter den Filenamen ändern und auf Bilder zugreifen. Dies wird auch Forceful Browsing genannt.
+         * Web Parameter Tampering: Mann kann die Parameter verwenden, um etwas zu ändern. Z.B. könnte man das löschen.
+         *
+         * Aufgabe 2
+         * z.B. http://localhost:4356/Lab1/Detail?file=../../../Windows/System32/cmd.exe?/C+dir+C:\
+         *      http://localhost:4356/Lab1/Detail?file=Lion1.jpg&type=lions&action=delete
+         *
+         * Aufgabe 3
+         * 
          * 
          * */
 
